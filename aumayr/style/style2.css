@@ -1,0 +1,28 @@
+div
+{
+    margin: 5px;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+img
+{
+    margin: 5px;
+    position: center;
+}
+
+/*we don't use flex for now!*/
+/* #first, #second
+{
+    display: flex;
+}
+*/
+
+#first, #second
+{
+    height: 600px;
+    width: 800px;
+    float: left;
+    /* display: inline-block; */
+}
+
